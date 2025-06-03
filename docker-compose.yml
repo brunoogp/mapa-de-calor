@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mapa-calor:
+    build: .
+    container_name: mapa-calor-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - /root/mapa-de-calor:/app
+    restart: always
+    env_file:
+      - .env
+

@@ -1,0 +1,10 @@
+streamlit==1.45.1
+matplotlib
+numpy
+pillow
+torch
+torchvision
+scipy
+python-dotenv
+requests
+

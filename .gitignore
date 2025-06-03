@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+# Para manter os pesos grandes fora do repositório, descomente estas linhas:
+# centerbias_mit1003.npy
+# deepgaze2e.pth
