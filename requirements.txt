@@ -1,4 +1,5 @@
-streamlit==1.45.1
+fastapi
+uvicorn
 matplotlib
 numpy
 pillow
@@ -7,4 +8,3 @@ torchvision
 scipy
 python-dotenv
 requests
-
